@@ -1,0 +1,11 @@
+/node_modules/
+/dist/
+/public/
+/pkg/
+/target/
+yarn-*.log
+**/*.rs.bk
+
+src/pkg
+zz
+Cargo.lock

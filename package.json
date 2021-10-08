@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "repository": "github:jeremy-coleman/babylon-wasmpack",
+  "scripts": {
+    "build": "webpack --env.production",
+    "start": "webpack serve"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "printWidth": 100,
+    "quoteProps": "consistent",
+    "semi": false
+  },
+  "dependencies": {
+    "@babylonjs/core": "5.0.0-alpha.50",
+    "@babylonjs/inspector": "5.0.0-alpha.50",
+    "@fluentui/merge-styles": "8.2.0",
+    "@most/core": "1.6.1",
+    "@most/scheduler": "1.3.0",
+    "@most/types": "1.1.0",
+    "@xstate/react": "1.6.1",
+    "keycode": "2.2.0",
+    "most-subject": "6.0.0",
+    "ramda": "0.27.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-refresh": "0.10.0",
+    "xstate": "4.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/plugin-syntax-top-level-await": "7.14.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.1",
+    "@types/node": "16.10.3",
+    "@types/ramda": "0.27.45",
+    "@types/react": "17.0.27",
+    "@types/react-dom": "17.0.9",
+    "@types/webpack-env": "latest",
+    "@wasm-tool/wasm-pack-plugin": "1.6.0",
+    "babel-loader": "8.2.2",
+    "html-webpack-plugin": "5.3.2",
+    "prettier": "2.4.1",
+    "ts-loader": "9.2.6",
+    "typescript": "4.4.3",
+    "webpack": "5.58.0",
+    "webpack-cli": "4.9.0",
+    "webpack-dev-server": "4.3.1"
+  }
+}

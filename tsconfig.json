@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2019",
+    "lib": ["esnext", "dom"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "strict": false,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": { "customMatcher": "\\.css$" }
+      }
+    ]
+  },
+  "files": ["src/client/types.d.ts"],
+  "include": ["src"],
+  "exclude": ["node_modules", "src/engine"]
+}
