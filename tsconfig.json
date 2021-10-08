@@ -12,13 +12,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "strict": false,
-    "plugins": [
-      {
-        "name": "typescript-plugin-css-modules",
-        "options": { "customMatcher": "\\.css$" }
-      }
-    ]
+    "strict": false
   },
   "files": ["src/client/types.d.ts"],
   "include": ["src"],
