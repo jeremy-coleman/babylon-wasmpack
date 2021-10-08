@@ -40,9 +40,10 @@ module.exports = {
     new ReactRefreshWebpackPlugin(),
     new HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({ template: "src/client/index.html" }),
+    
+    //https://github.com/wasm-tool/wasm-pack-plugin#readme
     new WasmPackPlugin({
-      //forceMode: "development",
-      forceMode: "release",
+      forceMode: "release", //development production/release same?
       crateDirectory: path.join(__dirname, "src/engine"),
       outDir: "src/pkg",
       watchDirectories: ["src/engine"],
